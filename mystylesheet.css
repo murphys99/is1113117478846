@@ -1,4 +1,48 @@
-.mainheading{
-                text-align:center;
+#mainheading{
+     text-align:right;
+     position: absolute;
+     left:40%;
+     z-index:5;
 }
 
+
+#sidebar{
+    background:#b7c6cd;
+    width:200px;
+    height:100%;
+    display:block;
+    position:absolute;
+    left:0px;
+    top:0px;
+    z-index:1;
+    }
+    
+    #sidebar ul li{
+    text-decoration:none;
+    color:white;
+    list-style:none;
+    padding-bottom:20%;
+    font-style: italic;
+    font-size: 20px;
+   
+    }
+      #sidebar ul li:hover{
+          background:silver;
+      }
+      
+      #button{
+          top:20%;
+          left:35%;
+          position: absolute;
+          z-index:2;
+          
+      }
+      
+      #button h3{
+          color:black;
+          position:absolute;
+          z-index: 6;
+          left:10%;
+          
+      }
+    
