@@ -5,7 +5,7 @@
         
         <!--JQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script type="text/javascript" src="cost_calc.js"></script>
+        <script type="text/javascript" src="cost_cal.js"></script>
         
         
     </head>
@@ -18,7 +18,7 @@
         
         <form method="POS1" action="Ebus2.php">
             <label for="salesforce">
-                <input type="radio" id="aws" name="product" checked onclick="disablebtnProceed()"/>
+                <input type="radio" id="salesforce" name="product" checked onclick="disablebtnProceed()"/>
                 salesforce @ $100
             </label>
             
