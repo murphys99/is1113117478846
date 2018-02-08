@@ -1,57 +1,106 @@
-#mainheading{
-     text-align:right;
-     position: absolute;
-     left:40%;
-     z-index:5;
+
+body,html{
+    height:100%;
+    width: 100%;
 }
 
 
-#sidebar{
-    background:#b7c6cd;
-    width:200px;
-    height:100%;
-    display:block;
-    position:absolute;
-    left:0px;
-    top:0px;
-    z-index:1;
-    }
+body{
+background: url("") no-repeat;
+background-size: cover;
+height:100%;
     
-    #sidebar ul li{
-    text-decoration:none;
-    color:white;
-    list-style:none;
-    padding-bottom:20%;
-    font-style: italic;
-    font-size: 20px;
+}
+
+#mainheading{
+     text-align:center;
+     position: absolute;
+     left:50%;
+     z-index:5;
    
-    }
+}
+
+
+
+    
       #sidebar ul li:hover{
           background:silver;
       }
       
       #button{
-          top:20%;
-          left:35%;
+          top:2%;
+          left:3%;
           position: absolute;
           z-index:2;
           
       }
       
-      #button h3{
-          color:black;
-          position:absolute;
-          z-index: 6;
-          left:10%;
-          
-      }
-    
-    #button1{
-         background:transparent;
-      }
     
     
     
+   .mainheading{
+       left:10%;
+       position:absolute;
+       
+     
+   }
     
+    
+#home{
+    position: absolute;
+    top:2%;
+    left: 3%;
 }
     
+    
+    #icon{
+        position: absolute;
+        left: 50%;
+        top:30%;
+        
+           
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    -ms-transition: -ms-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+    }
+   
+   #icon:hover{
+       transform:rotate(360deg);
+    -ms-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+    
+   }
+   
+ #interests{
+     position: absolute;
+     left:50%;
+     top:50%;
+     
+ }
+ 
+ #interests:hover{
+  height: 5%;
+  top:58%;
+    transition: all 2.5s ease;
+ }
+ 
+ #travel{
+     position: absolute;
+     left:50%;
+     top:70%;
+ }
+ #travel:hover{
+     animation : fly 2.5s infinite ease-in;
+ }
+ 
+ @keyframes fly{
+    to{left:60%;top:20%;}
+    from{left:50%;top:70%}
+ }
+ 
+  a{text-decoration: none;
+     color:black;
+ }
+ 
+ 
+ 
