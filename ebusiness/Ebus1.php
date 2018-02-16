@@ -16,7 +16,7 @@
         
         <br/>
         
-        <form method="POS1" action="Ebus2.php">
+        <form method="POST" action="Ebus2.php">
             <label for="salesforce">
                 <input type="radio" id="salesforce" name="product" checked onclick="disablebtnProceed()"/>
                 salesforce @ $100
@@ -34,7 +34,7 @@
             
             <label for="subtotal">
                 Sub Total
-                <input type="text" id="subtotal" value="0.00" readonly/>
+                <input type="text" id="subtotal" name="subtotal" value="0.00" readonly/>
             </label>
              
              <br/>
