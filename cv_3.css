@@ -1,0 +1,89 @@
+.main{
+    position: absolute;
+    height:100%;
+    width:100%;
+    }
+    
+
+    .mcdonalds{
+        position: absolute;
+        background-color: white;
+        width:50%;
+        height:100%;
+    }
+    
+    .mcdonalds-pic{
+        position: absolute;
+        left:35%;
+    }
+    
+    .mcdonalds-bio{
+        position: absolute;
+        top:50%;
+        height: 50%;
+        width:100%;
+        text-align: center;
+    }
+    
+    .wisetek{
+        position: absolute;
+        width:50%;
+        height:100%;
+        left:50%;
+        z-index: 1;
+    }
+    
+    .wisetek-pic{
+        position: absolute;
+        left:35%;
+        
+    }
+    
+    .wisetek-bio{
+        position: absolute;
+        background-color: white;
+        height:50%;
+        width:100%;
+        top:50%;
+        text-align: center;
+    }
+    
+   h1{
+       font-style: italic;
+       font-weight: bold;
+   
+   }
+   
+   p{
+       font-size:15px;
+   }
+   
+   .header{
+        position: absolute;
+       height:5%;
+       width:100%;
+       z-index: 2
+   }
+   
+    .mainheading{
+        top:0%;
+     left:45%;
+     position:absolute;
+     
+     color: red;
+    z-index: 10;
+}
+   
+   .footer{
+       position: absolute;
+       top:95%;
+       height:5%;
+       width:100%;
+       background-color: white;
+       z-index: 5
+   }
+   
+   .btn{
+       position: absolute;
+       left:95%;
+   }
