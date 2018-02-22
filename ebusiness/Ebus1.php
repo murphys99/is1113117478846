@@ -32,7 +32,7 @@
             <br/>
             <br/>
             
-            <label for="subtotal">
+            <label for+="subtotal">
                 Sub Total
                 <input type="text" id="subtotal" name="subtotal" value="0.00" readonly/>
             </label>
