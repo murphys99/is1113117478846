@@ -2,23 +2,45 @@
     <head>
         <title>Sports</title>
         <link rel="stylesheet" href="../mystlesheet.css" type="text/css"/>
+         <link rel="stylesheet" href="int_pages.css" type="text/css"/>
         
          <!--Adding Bootstrap-->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
        
                
+                    <!--Adding pagepiling-->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.css" />
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.js"></script>
+        
+        <script type="text/javascript">
+            $(document).ready(function() {
+	        $('#pagepiling').pagepiling();
+        });
+       </script>
+               
+               
     </head>
         <body>
-            <h1 class="mainheading">Sport details</h1>
-        
-            <p><strong>Sport:</strong>Gaelic Football</p>
-            <p><strong>Club:</strong>Passage West GAA</p>
-            <p><strong>Level:</strong>Junior A</p>
-        
-        
-                <a href="travel.html" class="btn btn-dark">Next</a>
-               
+            <div id="pagepiling">
+	<div class="section" id="section1"><img class="passage-img" src="https://pbs.twimg.com/profile_images/2419978424/Passage_-_Rasterized_text.jpg">Sport:GAA</div>
+	<div class="section" id="section2">Club:Passage West GAA</div>
+	<div class="section" id="section3">Level: Junior A and U21
+       
+        <br/>
+        <a href="../homepage.html" class="btn btn-success">Home</a>
+              </div>
+            </div>
+            
+            
+            
+            
+            
+            
+            
+            
       </body>
 </html>
 
