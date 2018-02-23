@@ -134,3 +134,10 @@ marquee h1{
    
     
 }
+
+
+.cloud{
+     position: absolute;
+     left:50%;
+     top:100%;
+}
