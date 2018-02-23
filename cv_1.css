@@ -10,97 +10,60 @@ width:100%;
 height:100%;
     background-color:grey;
     overflow: hidden;
-   
 }
 
 
-
-.body{
-    position: absolute;
-    height:50%;
-    width:60%;
-    margin:15% 20%;
-    background:white;
-    
-    
-}
-
-.profilepic{
-    position: absolute;
+.page{
+    position:absolute;
     height:100%;
+    width:100%;
+    background:green;
+}
+
+.profile{
+    position:relative;
+    background-color: white;
+    margin: 10% 25%;
+    width:50%;
+    height:50%;
+}
+
+.profile-pic{
+    position:absolute;
+    height:50%;
+    top:25%;
     width:40%;
-    top:20%;
-   
+    background:pink;
+    z-index:4;
 }
 
-.resume{
-    position: absolute;
+.about-me{
+    position:absolute;
+    left:40%;
     height:100%;
     width:60%;
-   left:40%;
-    font-size:32px;
-    font-weight:300;
-
+    background:pink;
+    
 }
 
-.resume span{
-    font-weight:700;
+ul{
+    font-size:30px;
+    display:block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align:center;
 }
 
-.course h1{
 
-    font-size:20px;
-    font-weight:100;
-}
-
-.description{
+.btn-success{
     position:absolute;
-  
-    top:50%;
-    height:50%;
-    width:100%;
-     font-size:20px;
-    font-weight:200;
-   
-} 
+    top:85%;
+    left:95%;
+    z-index:2;
+}
 
-.footer{
+.back{
     position:absolute;
-    top:90%;
-    width:100%;
-    height:10%;
-    background:red;
+    top:81%;
 }
-
-.top-half{
-    top:0%;
-    width:100%;
-    height:50%;
-    position: absolute;
-    background-color: #0EB57D;
-}
-
-.nav{
-    position: absolute;
-    height: 30%;
-    width:100%;
-    background-color: pink;
-}
-
-
-.home{
-    position: absolute;
-    z-index:5;
-}
-
- .btn{
-       position: absolute;
-       left:95%;
-       top:25%;
-       
-   }
-   
-   .back{
-       position: absolute;
-   }
-  
