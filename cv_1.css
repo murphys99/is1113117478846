@@ -46,14 +46,7 @@ height:100%;
     
 }
 
-ul{
-    font-size:30px;
-    display:block;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align:center;
-}
+
 
 
 .btn-success{
@@ -67,3 +60,31 @@ ul{
     position:absolute;
     top:81%;
 }
+
+
+
+.navbar{
+    position: fixed;
+    background-color:black
+    
+    
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover{
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    overflow: hidden;
+    }
+
+
+
+    

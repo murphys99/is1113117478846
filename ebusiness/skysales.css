@@ -1,0 +1,52 @@
+.navbar{
+    position: fixed;
+    background-color:black;
+    width:100%;
+    height:10%;
+    
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  text-align: left;
+  position: relative;
+  top:-30%;
+  margin:50;
+  color:white;
+  text-decoration: none;
+}
+
+.navbar a:hover{
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    overflow: hidden;
+    }
+
+h1{
+    position: absolute;
+    left:45%;
+    top:25%;
+}
+
+.logo{
+    position: absolute;
+    top:15%;
+    left:40%;
+}
+
+p{
+    position: absolute;
+   
+    text-align:center;
+}
+
+.description{
+    position: absolute;
+    width:35%;
+    left:35%;
+    top:30%;
+    height: 50%
+}
+

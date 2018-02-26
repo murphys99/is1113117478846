@@ -1,0 +1,91 @@
+h1{
+    position: absolute;
+}
+
+p{
+    position: absolute;
+    top:10%;
+    font-size: 15px;
+}
+
+iframe{
+    position: absolute;
+    top:11%;
+}
+
+.navbar{
+    position: fixed;
+    background-color:black;
+    width:100%;
+    height:10%;
+    z-index: 10
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  text-align: left;
+  position: relative;
+  top:-30%;
+  margin:50px;
+  color:white;
+  text-decoration: none;
+}
+
+.navbar a:hover{
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    overflow: hidden;
+  }
+
+.right{
+    position: absolute;
+    height:89%;
+    width:50%;
+    left:50%;
+    top:11%;
+}
+
+.gmail{
+    position: absolute;
+    height:50%;
+    width:50%;
+    top:50%;
+    background-image: url("https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gmail_logo.max-2800x2800.png");
+    background-size:70px;
+   
+    
+}
+
+.gmail-img{
+    position: relative;
+    top:2%;
+    left:20%;
+}
+
+.c9{
+    position: absolute;
+    background:orange;
+    height:50%;
+    width:50%;
+    top:50%;
+    left:50%;
+}
+
+.aws{
+    position: absolute;
+    background:grey;
+    height:50%;
+    width:50%;
+    top:100%;
+}
+
+.salesforce{
+   position: absolute;
+    background:blue;
+    height:50%;
+    width:50%;
+    top:100%;
+    left:50%; 
+}
