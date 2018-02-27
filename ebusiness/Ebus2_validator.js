@@ -7,13 +7,9 @@ function validateName(){
     
     if(Name==""){
         alert("Please enter your name");
-        document.form.name.focus();
+        
     }
     
-    if(!isNaN(Name))
-{
-alert("Please Enter Only Characters");
-}
     else{
         validateEmail();
     }
@@ -33,12 +29,12 @@ alert("Please Enter Only Characters");
     
     if (email == ""){
         alert("Please enter your email correctly");
-        document.form.name.focus();
+        
     }
     
     else if (validateUserEmail==false){
     alert("Please Enter a Valid Email");
-    document.form.name.focus();
+    
         
     }
     
@@ -56,6 +52,8 @@ alert("Please Enter Only Characters");
    function validateUserEmail(email) {
     var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(String(email).toLowerCase());
+    
+    //Got code from https://stackoverflow.com/questions/46155/how-to-validate-an-email-address-in-javascript
 }
     
     

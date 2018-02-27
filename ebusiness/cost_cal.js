@@ -19,24 +19,24 @@ function calcSub(){
         argSubTotal=400;
     }
     
-    calcTotal(argSubTotal);
+    calcDisVatTotal(argSubTotal);
 }
 
 
 
 
-function calcTotal(parmSubTotal){
+function calcDisVatTotal(parmSubTotal){
 var subtotal=parmSubTotal;
-var discount;
-var vat;
-var total;
+var discountAmt;
+var vatAmt;
+var totalPrice;
 
 
-discount= (parmSubTotal*0.05);
-vat=((parmSubTotal-discount)*0.1);
-total=((parmSubTotal+vat)-discount);
+discountAmt= (parmSubTotal*0.05);
+vatAmt=((parmSubTotal-discountAmt)*0.1);
+totalPrice=((parmSubTotal+vatAmt)-discountAmt);
 
-display(subtotal,discount,vat,total);
+display(subtotal,discountAmt,vatAmt,totalPrice);
 }
 
 
