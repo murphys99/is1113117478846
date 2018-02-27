@@ -10,7 +10,7 @@ function validateName(){
         document.form.name.focus();
     }
     
-    if(!isNaN(a))
+    if(!isNaN(Name))
 {
 alert("Please Enter Only Characters");
 }
