@@ -1,8 +1,41 @@
 /* global $ */
 
+function validateName(){
+    var Name;
+    
+    Name=document.getElementById("name").value;
+    
+    if(Name==""){
+        alert("Please enter your email correctly");
+    }
 
+    else{
+        validateEmail();
+    }
+}
 
-function validateDetails(){
+   
+   
+    function validateEmail(){
+    
+    var email;
+   
+     email=document.getElementById("email_address").value;
+    
+    
+    if (email == ""){
+        alert("Please enter your email correctly");
+    }
+    
+    else{
+        validatepin();
+}
+
+        
+    }
+    
+    
+    function validatepin(){
 
     
 
@@ -25,16 +58,12 @@ function validateDetails(){
         alert("Please make sure your PIN is accurate");
 
     }
-
     else{
-
         enablebtnPurchase();
-
     }
-
-    
-
 }
+
+
 
 
 

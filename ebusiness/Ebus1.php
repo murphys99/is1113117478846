@@ -57,13 +57,31 @@
              
              <br/>
              
+             <label for="discount">
+                 Discount
+                 <input type="text" id="discount" name="discount" value="0.00" readonly/>
+             </label>
+             
+             <br>
+             
+             <label for="VAT">
+                 VAT
+                 <input type="text" id="vat" name="vat" value="0.00" readonly/>
+             </label>
+             
+             <br>
+             
              <label for="total">
                  Total
                  <input type="text" id="total" name="total" value="0.00" readonly/>
              </label>
              
-        <br/>
-             
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
             <button type="submit" id="btnProceed" disabled> Add to Shopping Cart</button>
              
         </form>

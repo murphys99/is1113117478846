@@ -18,6 +18,13 @@ session_start();
         
         <form action="Ebus3.php" method="POST">
             
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="enter name" maxlength="30"            
+            
+            <label for="email_address">E-mail</label>
+            <input type="email" id="email_address" placeholder="your@email.com" maxlength="50"/>
+            
+            
             <label for-"user_pin">PIN</label>
             <input type="password" id="user_pin" placeholder="CARD PIN" maxlength="4">
             
@@ -26,7 +33,7 @@ session_start();
         </form>
         
         <br/>
-        <button onClick="validateDetails()">Validate</button>
+        <button onClick="validateName()">Validate</button>
         <script type="text/javascript" src="Ebus2_validator.js"></script>
     
     <?php
