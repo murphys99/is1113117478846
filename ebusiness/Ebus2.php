@@ -19,10 +19,10 @@ session_start();
         <form action="Ebus3.php" method="POST">
             
             <label for="name">Name</label>
-            <input type="text" id="name" placeholder="enter name" maxlength="30"            
+            <input type="text" id="name" name="name" placeholder="enter name" maxlength="30"            
             
             <label for="email_address">E-mail</label>
-            <input type="email" id="email_address" placeholder="your@email.com" maxlength="50"/>
+            <input type="email" id="email_address" name="name" placeholder="your@email.com" maxlength="50"/>
             
             
             <label for-"user_pin">PIN</label>

@@ -1,6 +1,6 @@
 .main{
     position: absolute;
-    height:80%;
+    height:100%;
     width:100%;
     }
     
@@ -14,12 +14,14 @@
     
     .mcdonalds-pic{
         position: absolute;
-        left:35%;
+        top:10%;
+        left:85%;
     }
     
     .mcdonalds-bio{
         position: absolute;
         top:50%;
+        left:50%;
         height: 50%;
         width:100%;
         text-align: center;
@@ -27,15 +29,15 @@
     
     .wisetek{
         position: absolute;
-        width:50%;
-        height:100%;
-        left:50%;
+        width:100%;
+        height:75%;
+        top:85%;
         z-index: 1;
     }
     
     .wisetek-pic{
         position: absolute;
-        left:35%;
+        left:45%;
         
     }
     
@@ -44,7 +46,7 @@
         background-color: white;
         height:50%;
         width:100%;
-        top:50%;
+        top:55%;
         text-align: center;
     
     }
@@ -78,7 +80,7 @@
    
    .footer{
        position: absolute;
-       top:85%;
+       top:165%;
        height:5%;
        width:100%;
        background-color: white;
