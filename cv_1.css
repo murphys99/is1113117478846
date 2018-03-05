@@ -13,39 +13,12 @@ height:100%;
 }
 
 
-.page{
-    position:absolute;
-    height:100%;
-    width:100%;
-    background:green;
+.me{
+    position: absolute;
+    left:50%;
+    border-radius: 50%;
+    top:12%;
 }
-
-.profile{
-    position:relative;
-    background-color: white;
-    margin: 10% 25%;
-    width:50%;
-    height:50%;
-}
-
-.profile-pic{
-    position:absolute;
-    height:50%;
-    top:25%;
-    width:40%;
-    background:pink;
-    z-index:4;
-}
-
-.about-me{
-    position:absolute;
-    left:40%;
-    height:100%;
-    width:60%;
-    background:pink;
-    
-}
-
 
 
 
@@ -87,4 +60,36 @@ height:100%;
 
 
 
+    .description{
+        position: absolute;
+        top:50%;
+        width:100%;
+    }
     
+    .im{
+        position: absolute;
+        top:40%;
+        width:100%;
+    }
+    
+    .course{
+        position: absolute;
+        top:45%;
+        width:100%;
+    }
+    
+    h1{
+        position: absolute;
+        left:40%;
+    }
+    
+    h4{
+        position: absolute;
+        left:43%;
+    }
+    
+    ul{
+        position: absolute;
+        left:45%;
+        font-size: 35px;
+    }

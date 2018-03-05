@@ -1,17 +1,23 @@
 #section1{
             background-color:rgb(0, 153, 51);
-            color:black;
-            
+            background-image: url("https://wallpaperstudio10.com/static/wpdb/wallpapers/1920x1080/164062.jpg");
+            background-size: cover;
 }
 
 
 
 #section2{
             background-color:rgb(255, 102, 102);
+            background-image: url("https://hdwallsource.com/img/2014/3/great-wall-of-china-wallpaper-36530-37363-hd-wallpapers.jpg");
+            background-size: cover;
+    
 }
 
 #section3{
             background-color:rgb(51,153,204);
+            background-image: url("http://www.kubipet.com/data/out/121/iwp779812584-nyc-wallpapers.jpg");
+            background-size: cover;
+            
             }
             
 .section{
