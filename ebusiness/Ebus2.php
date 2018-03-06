@@ -30,7 +30,7 @@ session_start();
             <input type="email" id="email_address" name="email" placeholder="your@email.com" maxlength="50">
             </label>
             
-            <label for-"user_pin">PIN
+            <label for="user_pin">PIN
             <input type="password" id="user_pin" placeholder="CARD PIN" maxlength="4">
             </label>
             
