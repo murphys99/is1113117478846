@@ -11,8 +11,8 @@ session_start();
 
 <?php
 //Echo variables that were set on previous page echo "total is " . $_SESSION["total"] . ".";
- echo "Your name " . $_SESSION["name"] . ".";
- echo "Your email " . $_SESSION["email"] . ".";
+ echo "Name is " . $_POST["name"] . ".";
+ echo "Email is " . $_POST["email"] . ".";
  echo "Total is " . $_SESSION["total"] . ".";
  
  
