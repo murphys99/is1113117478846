@@ -73,7 +73,6 @@
         top:0%;
      left:45%;
      position:absolute;
-     
      color: red;
     z-index: 10;
 }
@@ -90,28 +89,34 @@
    .btn{
        position: absolute;
        left:95%;
+       top:50%;
    }
    
-   .navbar{
-    position: fixed;
-    background-color: black;
+   .back{
+       position: absolute;
+   }
    
-    
-    
+   
+  ul{
+      position: absolute;
+      left: 0%;
+      top:0;
+      z-index: 5;
+  }
+
+ul li{
+    display: inline;
+    font-size: 30px;
+    padding:14px 17px;
+    color:black;
+    font-family: 'Leckerli One', cursive;
 }
 
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.navbar a:hover{
+ul li a{
+    color: black;
     text-decoration: none;
-    display: inline-block;
-    overflow: hidden;
-    }
+}
 
+ul li a:hover{
+ text-decoration: none;   
+}

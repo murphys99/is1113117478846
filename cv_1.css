@@ -24,39 +24,18 @@ height:100%;
 
 .btn-success{
     position:absolute;
-    top:85%;
+    top:95%;
     left:95%;
     z-index:2;
 }
 
 .back{
     position:absolute;
-    top:81%;
+    top:90%;
 }
 
 
 
-.navbar{
-    position: fixed;
-    background-color:black
-    
-    
-}
-
-.navbar a {
-  float: left;
-  font-size: 16px;
-  text-align: left;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.navbar a:hover{
-    text-decoration: none;
-    padding: 10px;
-    display: inline-block;
-    overflow: hidden;
-    }
 
 
 
@@ -90,6 +69,20 @@ height:100%;
     
     ul{
         position: absolute;
-        left:45%;
-        font-size: 35px;
+        
+        font-size: 30px;
+    }
+    
+    ul li{
+        display: inline;
+        padding:14px 17px;
+        font-family: 'Leckerli One', cursive;
+    }
+    
+    ul li a{
+        color:black;
+    }
+    
+    ul li a:hover{
+        text-decoration: none;
     }

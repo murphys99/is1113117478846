@@ -40,3 +40,22 @@ h1{
     color:white;
     top:10%;
 }
+
+ul{
+    position: absolute;
+    z-index: 5;
+   
+}
+
+ul li{
+    display: inline;
+    font-size: 30px;
+    font-family: 'Leckerli One', cursive;
+   
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 14px 17px
+}

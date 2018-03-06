@@ -11,23 +11,11 @@ body,html{
         
   
   
-marquee{
-    height:36%;
-    top:5%;
-    position: absolute;
-    color: white;
-    }
 
-marquee h1{
-    font-size:75px;
-    text-align: center;
-    
-    
-}
   
 
     #mainheading{
-     left:50%;
+     left:45%;
      position:absolute;
      color: red;
     
@@ -98,7 +86,7 @@ marquee h1{
 
 #GitHub{
     position: absolute;
-    left:40%;
+    left:42%;
     top:80%;
 }
 
@@ -134,19 +122,23 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    
 }
 
 li {
     float: left;
+    padding: 14px 17px;
+    color:black;
+    font-size: 30px;
+    font-family: 'Leckerli One', cursive;
 }
 
 li a, .dropbtn {
     display: inline-block;
-    color: white;
+    color: black;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
+
 }
 
 li a:hover, .dropdown:hover .dropbtn {

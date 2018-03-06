@@ -2,7 +2,7 @@
             background-color:rgb(0, 153, 51);
             color:black;
             background-image: url("https://pbs.twimg.com/profile_images/2419978424/Passage_-_Rasterized_text.jpg");
-            background-size: 200px;
+            background-size: 150px;
             
 }
 
@@ -61,9 +61,11 @@
     overflow: hidden;
     }
     
+    
+    
     .u21{
         position: absolute;
-        top:0;
+        top:8%;
         left:20%;
     }
     
@@ -73,13 +75,16 @@
         left:20%;
     }
     
+    .u19-bio{
+        top:62%;
+    }
     
     
     p{
         position: absolute;
         top:85%;
         left:25%;
-        color: black;
+        color: white;
         z-index: 100;
     }
     
@@ -106,4 +111,23 @@
       color:black;
       left:35%;
       z-index: 10;
+  }
+  
+  
+  ul{
+      position: absolute;
+      z-index: 5;
+      top:0;
+  }
+  
+  ul li{
+      font-size: 30px;
+      display: inline;
+      padding: 14px 17px;
+      font-family: 'Leckerli One', cursive;
+  }
+  
+  ul li a{
+      color:black;
+      text-decoration: none;
   }
