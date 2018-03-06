@@ -27,7 +27,7 @@ session_start();
             
             <label for="email_address">
                 E-mail
-            <input type="email" id="email_address" name="name" placeholder="your@email.com" maxlength="50">
+            <input type="email" id="email_address" name="email" placeholder="your@email.com" maxlength="50">
             </label>
             
             <label for-"user_pin">PIN
