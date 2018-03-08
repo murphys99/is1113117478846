@@ -53,7 +53,7 @@ function validateName(){
     var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(String(email).toLowerCase());
     
-    //Got code from https://stackoverflow.com/questions/46155/how-to-validate-an-email-address-in-javascript
+    //Got code for email validator from https://stackoverflow.com/questions/46155/how-to-validate-an-email-address-in-javascript
 }
     
     
@@ -78,14 +78,14 @@ function validateName(){
 
         alert("Please enter your PIN");
         document.form.name.focus();
-
+//ensuring required fields are not left blank
     }
 
     else if (String(pin).length < 4){
 
         alert("Please make sure your PIN is accurate");
         document.form.name.focus();
-
+//ensuring password is not less than 4 numbers
     }
     else{
         enablebtnPurchase();

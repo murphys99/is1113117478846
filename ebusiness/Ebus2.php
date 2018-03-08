@@ -21,7 +21,7 @@ session_start();
     <body>
         
      
-         
+         <!--creating a nav bar-->
          
          
           <ul>
@@ -34,6 +34,8 @@ session_start();
                 <li><a href="Ebus1.php">Products</a></li>
                
      </ul>
+     
+     <!--payment details section-->
         <div class="main">
             <h4>enter your payment details</h4>
             
@@ -66,8 +68,7 @@ session_start();
             <br/>
             <button onClick="validateName()">Validate</button>
             <script type="text/javascript" src="Ebus2_validator.js"></script>
-              <a href="Ebus1.php" alt="back" class="back">
-              <img src= "../images/back.png" height=75 width=75></a>
+              
         <?php
         //set the session variables
         $_SESSION["name"] = $_POST["name"];

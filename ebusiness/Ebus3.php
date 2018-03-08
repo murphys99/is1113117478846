@@ -14,6 +14,7 @@ session_start();
 </head>
 <body>
     
+    <!--creating a nav bar-->
     
           <ul>
          
@@ -42,12 +43,9 @@ session_start();
      
      echo "Total is " . $_SESSION["total"] . ".";
      
-     
+     //calling on the post variables from the previous page
     ?>
-      <a href="Ebus2.php" class="back">
-              <img src= "../images/back.png" alt="back" height=75 width=75></a>
-              
-    </div>
+      </div>
 
 </body>
 </html>

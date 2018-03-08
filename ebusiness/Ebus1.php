@@ -18,6 +18,8 @@
     
     <body>
         
+        <!--creating a nav bar-->
+        
           <ul>
          
                <li><a href="../homepage.html">Homepage</a></li>
@@ -34,6 +36,7 @@
         <h4>Select a Product</h4>
         
         <br>
+        <!--Creating product options-->
         
         <form method="POST" action="Ebus2.php">
             <label for="salesforce">
@@ -68,6 +71,8 @@
             
             <br>
             <br>
+            
+            <!--Labels for the total, subtotal, vat and discount-->
             
             <label for="subtotal">
                 Sub Total
@@ -110,11 +115,11 @@
         
        <br/>
        
+       <!--Button calling on function-->
+       
         <button id="btn" onclick="calcSub()">Calculate Cost</button>
         <a role="button" id="clear" href="Ebus1.php">Clear Choice</a>
-        <a href="skysales.html" alt="back" class="back">
-          <img src= "../images/back.png" height=75 width=75></a>
-       </div>
+        </div>
         </body>
     
     

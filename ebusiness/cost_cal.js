@@ -31,7 +31,7 @@ var discountAmt;
 var vatAmt;
 var totalPrice;
 
-
+//calculations to get the total price inc. vat and discount
 discountAmt= (parmSubTotal*0.05);
 vatAmt=((parmSubTotal-discountAmt)*0.1);
 totalPrice=((parmSubTotal+vatAmt)-discountAmt);

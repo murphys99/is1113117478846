@@ -45,3 +45,9 @@ ul{
   }
   
  
+ body{
+     background-image: url("https://zdnet2.cbsistatic.com/hub/i/2016/05/03/2828a298-cc94-4ba0-b294-5f45930d39a9/2bb4794afb96ae05e28eb8686c937cb4/cloud.jpg");
+     background-size: 2250px;
+     background-position:center;
+     background-repeat:no-repeat;
+ }
