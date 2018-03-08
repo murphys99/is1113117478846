@@ -3,7 +3,8 @@ session_start();
 ?>
 
 <!DOCTYPE html>
-<html><head>
+<html lang="en">
+    <head>
     <title>RECEIPT</title>
     
     <link rel="icon" href="https://www.cubsucc.com/contentFiles/staffProfileImages/CUBSLogoColCMYK16.png">
