@@ -1,5 +1,7 @@
 
-
+body{
+    background-image: url("https://s3.amazonaws.com/cdn.tristro.net/catalog/884/full/12850-clouds.jpg");
+}
 
 #btn{
     position: absolute;
