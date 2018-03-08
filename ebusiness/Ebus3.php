@@ -45,9 +45,8 @@ session_start();
      
     ?>
       <a href="Ebus2.php" class="back">
-              <img src= "../images/back.png" height=75 width=75></a>
-              <a href="../homepage.html" class="home">
-              <img src="http://weclipart.com/gimg/CF5FF32E6096B1BA/property-small-1_0.png" height=50 </a>
+              <img src= "../images/back.png" alt="back" height=75 width=75></a>
+              
     </div>
 
 </body>

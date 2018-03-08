@@ -66,7 +66,7 @@ session_start();
             <br/>
             <button onClick="validateName()">Validate</button>
             <script type="text/javascript" src="Ebus2_validator.js"></script>
-              <a href="Ebus1.php" class="back">
+              <a href="Ebus1.php" alt="back" class="back">
               <img src= "../images/back.png" height=75 width=75></a>
         <?php
         //set the session variables
@@ -74,7 +74,8 @@ session_start();
         $_SESSION["email"] = $_POST["email"];
         $_SESSION["total"] = $_POST["total"];
         ?>
-    <div/>
+        
+    </div>
 </body>
     
     

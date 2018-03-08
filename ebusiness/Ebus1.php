@@ -112,7 +112,7 @@
        
         <button id="btn" onclick="calcSub()">Calculate Cost</button>
         <a role="button" id="clear" href="Ebus1.php">Clear Choice</a>
-        <a href="skysales.html" class="back">
+        <a href="skysales.html" alt="back" class="back">
           <img src= "../images/back.png" height=75 width=75></a>
        </div>
         </body>
